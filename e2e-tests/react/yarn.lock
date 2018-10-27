@@ -7191,7 +7191,7 @@ yauzl@2.8.0:
     fd-slicer "~1.0.1"
 
 "zipkin-javascript-opentracing@file:../..":
-  version "1.5.1"
+  version "2.0.0"
 
 zipkin-transport-http@0.10.1:
   version "0.10.1"
@@ -7199,9 +7199,10 @@ zipkin-transport-http@0.10.1:
   dependencies:
     node-fetch "^1.5.3"
 
-zipkin@0.10.1:
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/zipkin/-/zipkin-0.10.1.tgz#98d2472f897b6c532b02cb9f2866139399664036"
+zipkin@0.14.3:
+  version "0.14.3"
+  resolved "https://registry.yarnpkg.com/zipkin/-/zipkin-0.14.3.tgz#58ff9d4f22a11c8d852455f523e763c7a70cfaba"
   dependencies:
     base64-js "^1.1.2"
+    is-promise "^2.1.0"
     network-address "^1.1.0"
